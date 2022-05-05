@@ -1,10 +1,10 @@
-link to the [research's web]()
+link to the [research's web](https://zarodev.github.io/Static-Code-Analysis/)
 
 ___
 
 In this tutorial, I will explain what a static code analysis tool is and how to use it in your own projects, as it provides several benefits including computerized code revision.
 
-I am [Víctor Falcón](), student of the [Bachelor’s Degree in Video Games by UPC at CITM](<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>). This content is generated for the second year’s subject Project 2.
+I am [Víctor Falcón](https://www.linkedin.com/in/victor-falcon-zaro-78ab13215/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>). This content is generated for the second year’s subject Project 2.
 
 If you wish to contact me for any question about the topic, you can find my email at the bottom of this page.           
        
