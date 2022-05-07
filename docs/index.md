@@ -100,7 +100,6 @@ It is worth commenting that in this research's github repository you can find so
  
 - SCA Research Full Code: some sample code to test SCA tools functionality. In this .zip the errors are commented.
 - SCA Research Exercises: the same code, as above, but errors are not commented. 
-- SCA Research Docs: the content of the web in .md and .ppt files to follow it without internet connection.
 - CppCheck + VCG: the program of CppCheck and Visual Code Grepper.
 
 #### TODO 0
@@ -127,7 +126,7 @@ Before continuing, it must be noted that CppCheck runs locally, so you need the 
 
 3. In the CppCheck menu, go to **New Project**, choose our *bugtracking* folder as location and choose a name for your CppCheck file.   
 
-![TODO 2]()
+![TODO 2](TODO2.jpg)
 
 #### TODO 3
 
@@ -139,7 +138,7 @@ A project configuration pop-up will appear.
 
 3. Make sure that **analyze all Visual Studio configurations** is checked.
 
-![TODO 3]()
+![TODO 3](TODO3.jpg)
 
 #### TODO 4
 
@@ -151,7 +150,7 @@ Go to the next tab **Checking**.
 
 3. Below, check all libraries your project uses or will use (most likely SDL and windows).
 
-![TODO 4]()
+![TODO 4](TODO4.jpg)
 
 #### TODO 5
 
@@ -163,7 +162,7 @@ On the next tab, **Warning options**, you can add excluded paths and errors.
 
 3. Click **Done** on the project configuration tab. Accept if you are asked to create the build dir folder.
 
-![TODO 5]()
+![TODO 5](TODO5.jpg)
 
 #### TODO 6
 
@@ -181,11 +180,11 @@ Inside the CppCheck menu, go to **Edit/preferences**.
 
 1. In **General**, check all options but **Enable inline supressions**.
 
-![TODO 7]()
+![TODO 7](TODO7.jpg)
 
 2. In **Reports**, check both options.
 
-![TODO 7]()
+![TODO 7](TODO8.jpg)
 
 Once finished, close the **Preferences** tab.
 
@@ -205,11 +204,11 @@ There you can add functions by writing their name and argument number.
 
 Then, double click in any argument to set the rules it must follow. Save once you have finished editing.
 
-![TODO 9]()
+![TODO 9](TODO9.jpg)
 
 Remember to go to **File/Edit Project -> Checking** tab, and make sure the library *configuration* is checked to start using it.
 
-![TODO 9]()
+![TODO 9](TODO10.jpg)
 
 #### TODO 10
 
@@ -230,11 +229,11 @@ Start the program, and make sure that the language in Settings is set to C/C++.
 
 #### TODO 12
 
-As you can see if you are using the test code, VCG has found a bug that CppCheck did not found: the memory leak.However, we can also see that VCG has not found the const bug that CppCheck did before. In fact, any of them has found a signed/unsigned mismatch bug in the test code.
+As you can see if you are using the test code, doesn't find any bug while Cppcheck finds two of them.
 
 If your using the sample code inside the Full code .zip, you will also notice that it does also analyze comments in search of potential dangers.
 
-![TODO 12]()
+![TODO 12](TODO12.jpg)
 
 If you are, instead, using your own code, you are likely as well to have found different bugs using CppCheck and VCG.
 
