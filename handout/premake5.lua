@@ -5,10 +5,10 @@ workspace "Solution"
         "Debug",
         "Release"
     }
-    startproject "Research_SCA"
+    startproject "Solution"
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-include "Research_SCA"
+include "Source"
 
 newaction {
     trigger = "clean",

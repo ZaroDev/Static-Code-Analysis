@@ -1,4 +1,4 @@
-project "Research_SCA"
+project "Handout"
     kind "ConsoleApp"
     language "C++"
     cppdialect "C++14"
