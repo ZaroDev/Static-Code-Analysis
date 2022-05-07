@@ -110,6 +110,12 @@ First, we must download the necessary files. The installation files for CppCheck
 
 Alternatively, they are included in the release tab of the Github repository linked to this web, which also contains a small test program to chech SCA functionality. You can use any project you wish to analyze, yet it must be kept in mind that the comments about errors in the following steps refer only to the provided test code.
 
+We also need to create our solution files, in order to make so we are gonna use Premake5.
+In order to create our solution we are gonna open the exercises folder and then open a command console on that folder.
+
+In the cmd we are gonna address the build.bat and then especify our editor. Ex: `build.bat vs2019`.
+This command will generate us the correct solution in order to analize the project.
+
 #### TODO 1
 
 Install CppCheck using default options. You can add pyhton functionality if you wish.

@@ -96,7 +96,6 @@ It is worth commenting that in this research's github repository you can find so
  
 - SCA Research Full Code: some sample code to test SCA tools functionality. In this .zip the errors are commented.
 - SCA Research Exercises: the same code, as above, but errors are not commented. 
-- SCA Research Docs: the content of the web in .md and .ppt files to follow it without internet connection.
 - CppCheck + VCG: the program of CppCheck and Visual Code Grepper.
 
 #### TODO 0
@@ -107,6 +106,11 @@ First, we must download the necessary files. The installation files for CppCheck
 
 Alternatively, they are included in the release tab of the Github repository linked to this web, which also contains a small test program to chech SCA functionality. You can use any project you wish to analyze, yet it must be kept in mind that the comments about errors in the following steps refer only to the provided test code.
 
+We also need to create our solution files, in order to make so we are gonna use Premake5.
+In order to create our solution we are gonna open the exercises folder and then open a command console on that folder.
+
+In the cmd we are gonna address the build.bat and then especify our editor. Ex: `build.bat vs2019`
+This command will generate us the correct solution in order to analize the project.
 #### TODO 1
 
 Install CppCheck using default options. You can add python functionality if you wish.
@@ -206,9 +210,9 @@ Execute the program, and make sure that the language in Settings is set to the l
 
 #### TODO 12
 
-If you are using the test code, you will see VCG has found a bug that CppCheck did not, a memory leak. However, we can also see that VCG has not found the const error that CppCheck did before. In fact, none of them has found a signed/unsigned mismatch.
+As you can see if you are using the test code, doesn't find any bug while Cppcheck finds two of them.
 
-If you are, instead, using your own code, you are likely to have found as well different bugs using CppCheck and VCG.
+If your using the sample code inside the Full code .zip, you will also notice that it does also analyze comments in search of potential dangers.
 
 ____
 
