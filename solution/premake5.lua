@@ -1,4 +1,4 @@
-workspace "FullCode"
+workspace "Solution"
     architecture "x86"
 
     configurations{

@@ -1,4 +1,4 @@
-workspace "Exercises"
+workspace "Solution"
     architecture "x86"
 
     configurations{
